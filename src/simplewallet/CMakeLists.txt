@@ -1,3 +1,4 @@
+# Copyright (c) 2018, ReCoal Project
 # Copyright (c) 2014-2018, The Monero Project
 #
 # All rights reserved.
@@ -61,5 +62,5 @@ target_link_libraries(simplewallet
     ${EXTRA_LIBRARIES})
 set_property(TARGET simplewallet
   PROPERTY
-    OUTPUT_NAME "monero-wallet-cli")
+    OUTPUT_NAME "recoal-wallet-cli")
 install(TARGETS simplewallet DESTINATION bin)
