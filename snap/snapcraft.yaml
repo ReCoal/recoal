@@ -1,31 +1,31 @@
-name: monero
-version: 0.11.1.0-1
-summary: "Monero: the secure, private, untraceable cryptocurrency https://getmonero.org"
+name: recoal
+version: 0.2.0.0
+summary: "ReCoal: the secure, private, untraceable upgrade for BitCoal. https://recoal.gq"
 description: |
-    Monero is a private, secure, untraceable, decentralised digital currency.
+    ReCoal is a private, secure, untraceable, decentralised digital currency.
     You are your bank, you control your funds, and nobody can trace your transfers
     unless you allow them to do so.
 grade: devel
 confinement: strict
 
 apps:
-    monerod:
+    recoald:
         daemon: forking
         command: |
           monerod-wrapper --detach --data-dir ${SNAP_COMMON} --config-file ${SNAP_USER_DATA}/etc/monerod.conf
         plugs:
             - network
             - network-bind
-    monero-wallet-rpc:
+    recoal-wallet-rpc:
         command: |
-          monero-wallet-rpc --log-file ${SNAP_USER_DATA}
+          recoal-wallet-rpc --log-file ${SNAP_USER_DATA}
         plugs:
             - home
             - network
             - network-bind
-    monero-wallet-cli:
+    recoal-wallet-cli:
         command: |
-          monero-wallet-cli --log-file ${SNAP_USER_DATA}
+          recoal-wallet-cli --log-file ${SNAP_USER_DATA}
         plugs:
             - home
             - network
