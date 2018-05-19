@@ -1,3 +1,4 @@
+// Copyright (c) 2018. ReCoal Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -127,8 +128,10 @@ namespace nodetool
     virtual std::map<std::string, time_t> get_blocked_hosts() { CRITICAL_REGION_LOCAL(m_blocked_hosts_lock); return m_blocked_hosts; }
   private:
     const std::vector<std::string> m_seed_nodes_list =
-    { "13.232.3.169"
-    , "13.126.107.174"
+    { "v2seed1.recoal.gq"
+      , "v2seed2.recoal.gq"
+      , "v2seed3.recoal.gq"
+      , "v2seed4.recoal.gq"
 //    , "seeds.moneroseeds.ch"
 //    , "seeds.moneroseeds.li"
     };
