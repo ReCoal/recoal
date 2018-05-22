@@ -56,9 +56,9 @@ As with many development projects, the repository on Github is considered to be 
 
 ReCoal is a community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.recoal.gq** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send RECL to the ReCoal donation via the `donate` command (type `help` in the command-line wallet for details).
 
-The Monero donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
+The Monero donation address is: `41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ` (viewkey: `1a79b8bf1159417d183f4c7ec473051e889f42b0d7f7d40a1457bc3663ee3f01`)
 
-The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
+The Bitcoin donation address is: `19R69NNM4BAwSTcuJ8UjUCxcLBPyek9K8a`
 
 ## License
 
