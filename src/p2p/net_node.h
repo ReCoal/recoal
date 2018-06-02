@@ -128,12 +128,12 @@ namespace nodetool
     virtual std::map<std::string, time_t> get_blocked_hosts() { CRITICAL_REGION_LOCAL(m_blocked_hosts_lock); return m_blocked_hosts; }
   private:
     const std::vector<std::string> m_seed_nodes_list =
-    { "v2seed1.recoal.gq"
-      , "v2seed2.recoal.gq"
-      , "v2seed3.recoal.gq"
-      , "v2seed4.recoal.gq"
-//    , "seeds.moneroseeds.ch"
-//    , "seeds.moneroseeds.li"
+    { "seed1.recoal.org"
+      , "seed2.recoal.org"
+      , "seed3.recoal.org"
+      , "seed4.recoal.org"
+      , "seed5.recoal.org"
+      , "seed6.recoal.org"
     };
 
     bool islimitup=false;
