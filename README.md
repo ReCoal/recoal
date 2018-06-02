@@ -54,7 +54,7 @@ As with many development projects, the repository on Github is considered to be 
 
 ## Supporting the project
 
-ReCoal is a community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially.Monero (XMR), Bitcoin (BTC) and BitcoinCash (BCH) donations can be made to **donate.recoal.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send RECL to the ReCoal donation via the `donate` command (type `help` in the command-line wallet for details).
+ReCoal is a community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially.***Monero (XMR), Bitcoin (BTC) and BitcoinCash (BCH)*** donations can be made to **donate.recoal.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send RECL to the ReCoal donation via the `donate` command (type `help` in the command-line wallet for details).
 
 The Monero donation address is: `41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ` (viewkey: `1a79b8bf1159417d183f4c7ec473051e889f42b0d7f7d40a1457bc3663ee3f01`)
 
