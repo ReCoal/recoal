@@ -6,8 +6,8 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [https://ReCoal.gq](https://recoal.gq)
-- Mail: [support@recoal.gq](mailto:support@recoal.gq)
+- Web: [https://ReCoal.org](https://recoal.org)
+- Mail: [support@recoal.org](mailto:support@recoal.org)
 - GitHub: [https://github.com/ReCoal/recoal](https://github.com/ReCoal/recoal)
 
 ## Build
@@ -54,11 +54,12 @@ As with many development projects, the repository on Github is considered to be 
 
 ## Supporting the project
 
-ReCoal is a community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.recoal.gq** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send RECL to the ReCoal donation via the `donate` command (type `help` in the command-line wallet for details).
+ReCoal is a community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially.Monero (XMR), Bitcoin (BTC) and BitcoinCash (BCH) donations can be made to **donate.recoal.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send RECL to the ReCoal donation via the `donate` command (type `help` in the command-line wallet for details).
 
 The Monero donation address is: `41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ` (viewkey: `1a79b8bf1159417d183f4c7ec473051e889f42b0d7f7d40a1457bc3663ee3f01`)
 
 The Bitcoin donation address is: `19R69NNM4BAwSTcuJ8UjUCxcLBPyek9K8a`
+The BitcoinCash donation address is: `1HWx1jcp4jhcBe3ztMZstMw939rP2DJag9`
 
 ## License
 
@@ -181,7 +182,7 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 	CONF_SWAPSIZE=1024  
 	sudo /etc/init.d/dphys-swapfile start  
 ```
-* Clone monero and checkout most recent release version:
+* Clone ReCoal and checkout most recent release version:
 ```
         git clone https://github.com/ReCoal/recoal.git
 	cd recoal
@@ -284,9 +285,9 @@ application.
 
 ### On FreeBSD:
 
-The project can be built from scratch by following instructions for Linux above. If you are running monero in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
+The project can be built from scratch by following instructions for Linux above. If you are running recoal in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
 
-We expect to add Monero into the ports tree in the near future, which will aid in managing installations using ports or packages.
+We expect to add ReCoal into the ports tree in the near future, which will aid in managing installations using ports or packages.
 
 ### On OpenBSD:
 
@@ -301,7 +302,7 @@ The doxygen and graphviz packages are optional and require the xbase set.
 The Boost package has a bug that will prevent librpc.a from building correctly. In order to fix this, you will have to Build boost yourself from scratch. Follow the directions here (under "Building Boost"):
 https://github.com/bitcoin/bitcoin/blob/master/doc/build-openbsd.md
 
-You will have to add the serialization, date_time, and regex modules to Boost when building as they are needed by Monero.
+You will have to add the serialization, date_time, and regex modules to Boost when building as they are needed by ReCoal.
 
 To build: `env CC=egcc CXX=eg++ CPP=ecpp DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/path/to/the/boost/you/built make release-static-64`
 
