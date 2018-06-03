@@ -6,7 +6,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [https://ReCoal.org](https://recoal.org)
+- Web: [https://recoal.org](https://recoal.org)
 - Mail: [support@recoal.org](mailto:support@recoal.org)
 - GitHub: [https://github.com/ReCoal/recoal](https://github.com/ReCoal/recoal)
 
@@ -60,6 +60,7 @@ The Monero donation address is: `41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePm
 
 The Bitcoin donation address is: `19R69NNM4BAwSTcuJ8UjUCxcLBPyek9K8a`   
 The BitcoinCash donation address is: `1HWx1jcp4jhcBe3ztMZstMw939rP2DJag9`
+The Litecoin donation address is: `LbjuGwve9PwfSSkA4VZBANzuFNDfBc17Wx`
 
 ## License
 
