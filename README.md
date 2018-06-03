@@ -59,7 +59,7 @@ ReCoal is a community-sponsored endeavor. If you want to join our efforts, the e
 The Monero donation address is: `41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ` (viewkey: `1a79b8bf1159417d183f4c7ec473051e889f42b0d7f7d40a1457bc3663ee3f01`)
 
 The Bitcoin donation address is: `19R69NNM4BAwSTcuJ8UjUCxcLBPyek9K8a`   
-The BitcoinCash donation address is: `1HWx1jcp4jhcBe3ztMZstMw939rP2DJag9`
+The BitcoinCash donation address is: `1HWx1jcp4jhcBe3ztMZstMw939rP2DJag9`   
 The Litecoin donation address is: `LbjuGwve9PwfSSkA4VZBANzuFNDfBc17Wx`
 
 ## License
