@@ -46,7 +46,7 @@ ReCoal is a private, secure, untraceable, decentralised digital currency. You ar
 
 ## About this project
 
-This is the core implementation of Monero. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of ReCoal that uses the protocol and network in a compatible manner.
+This is the core implementation of ReCoal. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of ReCoal that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
@@ -123,7 +123,7 @@ If you already have a repo cloned, initialize and update:
 
 ### Build instructions
 
-Monero uses the CMake build system and a top-level [Makefile](Makefile) that
+ReCoal uses the CMake build system and a top-level [Makefile](Makefile) that
 invokes cmake commands as needed.
 
 #### On Linux and OS X
@@ -144,9 +144,9 @@ invokes cmake commands as needed.
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/recoal/build/release/bin"` to `.profile`
 
-* Run Monero with `recoald --detach`
+* Run ReCoal with `recoald --detach`
 
 * **Optional**: build and run the test suite to verify the binaries:
 
@@ -174,7 +174,7 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * `apt-get update && apt-get upgrade` to install all of the latest software
 
-* Install the dependencies for Monero from the 'Debian' column in the table above.
+* Install the dependencies for ReCoal from the 'Debian' column in the table above.
 
 * Increase the system swap size:
 ```	
@@ -216,7 +216,7 @@ If you are using the older Raspbian Jessie image, compiling ReCoal is a bit more
 	sudo /etc/init.d/dphys-swapfile start  
 ```
 
-* Then, install the dependencies for Monero except `libunwind` and `libboost-all-dev`
+* Then, install the dependencies for ReCoal except `libunwind` and `libboost-all-dev`
 
 * Install the latest version of boost (this may first require invoking `apt-get remove --purge libboost*` to remove a previous version if you're not using a clean install):
 ```
