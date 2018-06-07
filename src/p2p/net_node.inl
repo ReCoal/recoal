@@ -371,28 +371,30 @@ namespace nodetool
     std::set<std::string> full_addrs;
     if (nettype == cryptonote::TESTNET)
     {
-      full_addrs.insert("13.232.3.169:25080");
-      full_addrs.insert("13.126.107.174:25080");
-//     full_addrs.insert("163.172.182.165:25080");
-//      full_addrs.insert("195.154.123.123:25080");
-//      full_addrs.insert("212.83.172.165:25080");
+      full_addrs.insert("seed1.recoal.org:22121");
+      full_addrs.insert("seed2.recoal.org:22121");
+      full_addrs.insert("seed3.recoal.org:22121");
+      full_addrs.insert("seed4.recoal.org:22121");
+      full_addrs.insert("seed5.recoal.org:22121");
+      full_addrs.insert("seed6.recoal.org:22121");
     }
     else if (nettype == cryptonote::STAGENET)
     {
-      full_addrs.insert("13.232.3.169:35080");
-      full_addrs.insert("13.126.107.174:35080");
+      full_addrs.insert("seed1.recoal.org:32121");
+      full_addrs.insert("seed2.recoal.org:32121");
+      full_addrs.insert("seed3.recoal.org:32121");
+      full_addrs.insert("seed4.recoal.org:32121");
+      full_addrs.insert("seed5.recoal.org:32121");
+      full_addrs.insert("seed6.recoal.org:32121");
     }
     else
     {
-      full_addrs.insert("13.232.3.169:15080");
-      full_addrs.insert("13.126.107.174:15080");
-//      full_addrs.insert("5.9.100.248:15080");
-//      full_addrs.insert("163.172.182.165:15080");
-//      full_addrs.insert("161.67.132.39:15080");
-//      full_addrs.insert("198.74.231.92:15080");
-//      full_addrs.insert("195.154.123.123:15080");
-//      full_addrs.insert("212.83.172.165:15080");
-    }
+      full_addrs.insert("seed1.recoal.org:12121");
+      full_addrs.insert("seed2.recoal.org:12121");
+      full_addrs.insert("seed3.recoal.org:12121");
+      full_addrs.insert("seed4.recoal.org:12121");
+      full_addrs.insert("seed5.recoal.org:12121");
+      full_addrs.insert("seed6.recoal.org:12121");    }
     return full_addrs;
   }
 
