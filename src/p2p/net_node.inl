@@ -394,7 +394,8 @@ namespace nodetool
       full_addrs.insert("seed3.recoal.org:12121");
       full_addrs.insert("seed4.recoal.org:12121");
       full_addrs.insert("seed5.recoal.org:12121");
-      full_addrs.insert("seed6.recoal.org:12121");    }
+      full_addrs.insert("seed6.recoal.org:12121");
+    }
     return full_addrs;
   }
 
