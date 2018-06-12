@@ -1,3 +1,4 @@
+// Copyright (c) 2018, ReCoal Project
 // Copyright (c) 2017-2018, The Monero Project
 // 
 // All rights reserved.
@@ -176,12 +177,12 @@ int main(int argc, char* argv[])
 
   const auto vm = wallet_args::main(
    argc, argv,
-   "monero-gen-multisig [(--testnet|--stagenet)] [--filename-base=<filename>] [--scheme=M/N] [--threshold=M] [--participants=N]",
+   "recoal-gen-multisig [(--testnet|--stagenet)] [--filename-base=<filename>] [--scheme=M/N] [--threshold=M] [--participants=N]",
     genms::tr("This program generates a set of multisig wallets - use this simpler scheme only if all the participants trust each other"),
     desc_params,
     boost::program_options::positional_options_description(),
     [](const std::string &s, bool emphasis){ tools::scoped_message_writer(emphasis ? epee::console_color_white : epee::console_color_default, true) << s; },
-    "monero-gen-multisig.log"
+    "recoal-gen-multisig.log"
   );
   if (!vm)
     return 1;
