@@ -110,6 +110,13 @@ library archives (`.a`).
 
 [^] On Debian/Ubuntu `libgtest-dev` only includes sources and headers. You must
 build the library binary manually. This can be done with the following command ```sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake . && sudo make && sudo mv libg* /usr/lib/ ```
+#### Install all dependencies
+
+First run the update command
+`$ sudo apt-get update`
+
+Next install all of the above dependencies using this command
+`$ sudo apt-get install build-essential cmake pkg-config libboost-all-dev libssl-dev libzmq3-dev libunbound-dev libsodium-dev libminiupnpc-dev libunwind8-dev liblzma-dev libreadline6-dev libldns-dev libexpat1-dev libgtest-dev doxygen graphviz`
 
 ### Cloning the repository
 
