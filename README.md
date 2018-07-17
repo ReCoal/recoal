@@ -14,7 +14,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 | Operating System      | Processor | Status |
 | --------------------- | -------- |--------|
-| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://recoal.org/builds/ubuntu16-04.png)]
+| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://recoal.github.io/builds/ubuntu16-04.png)]
 | Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getmonero.org/png?builder=monero-static-ubuntu-amd64)](https://build.getmonero.org/builders/monero-static-ubuntu-amd64)
 | Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getmonero.org/png?builder=monero-static-ubuntu-arm7)](https://build.getmonero.org/builders/monero-static-ubuntu-arm7)
 | Debian Stable         |  armv8   | [![Debian armv8](https://build.getmonero.org/png?builder=monero-static-debian-armv8)](https://build.getmonero.org/builders/monero-static-debian-armv8)
