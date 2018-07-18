@@ -16,9 +16,9 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 | --------------------- | -------- |--------|
 | Ubuntu 16.04          |  i686    | ![Ubuntu 16.04 i686](https://recoal.github.io/builds/ubuntu16-04.png)
 | Ubuntu 16.04          |  amd64   | ![Ubuntu 16.04 amd64](https://recoal.github.io/builds/ubuntu16-04amd64.png)
+| Ubuntu 18.04          |  amd64   | ![Ubuntu 16.04 amd64](https://recoal.github.io/builds/ubuntu18-04amd64.png)
 | Ubuntu 16.04          |  armv7   | ![Ubuntu 16.04 armv7](https://recoal.github.io/builds/ubuntu16-04arm7.png)
 | Debian Stable         |  armv8   | ![Debian armv8](https://recoal.github.io/builds/deb-armv8.png)
-| OSX 10.10             |  amd64   | ![OSX 10.10 amd64](https://recoal.github.io/builds/osx-10-10.png)
 | OSX 10.11             |  amd64   | ![OSX 10.11 amd64](https://recoal.github.io/builds/osx-10-11.png)
 | OSX 10.12             |  amd64   | ![OSX 10.12 amd64](https://recoal.github.io/builds/osx-10-12.png)
 | OSX 10.13             |  amd64   | ![OSX 10.13 amd64](https://recoal.github.io/builds/osx-10-13.png)
