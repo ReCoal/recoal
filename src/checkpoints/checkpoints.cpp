@@ -173,11 +173,11 @@ namespace cryptonote
 //      ADD_CHECKPOINT(10000,   "1f8b0ce313f8b9ba9a46108bfd285c45ad7c2176871fd41c3a690d4830ce2fd5");
       return true;
     }
-//    ADD_CHECKPOINT(1,     "771fbcd656ec1464d3a02ead5e18644030007a0fc664c0a964d30922821a8148");
-//    ADD_CHECKPOINT(10,    "c0e3b387e47042f72d8ccdca88071ff96bff1ac7cde09ae113dbb7ad3fe92381");
-//    ADD_CHECKPOINT(100,   "ac3e11ca545e57c49fca2b4e8c48c03c23be047c43e471e1394528b1f9f80b2d");
-//    ADD_CHECKPOINT(1000,  "5acfc45acffd2b2e7345caf42fa02308c5793f15ec33946e969e829f40b03876");
-//    ADD_CHECKPOINT(10000, "c758b7c81f928be3295d45e230646de8b852ec96a821eac3fea4daf3fcac0ca2");
+    ADD_CHECKPOINT(1,     "e942f0e08c4a753cc933a51bd8301ff3160b83e678cad22324a189d340f2f7e0");
+    ADD_CHECKPOINT(500,   "7c9ef16c2b8cfa44d5eda1a5ba122c04629dc88b33fc4e08d2fb680727eb4a20");
+    ADD_CHECKPOINT(1000,  "b2bf22c23fbd6a33b329798c878f2de8b1c955b44e684f4ed07043b00c701e8b");
+    ADD_CHECKPOINT(2500,  "a364df144326659bc3a5b247ef06104645c93d1c2970fde93e66cc9ee45c656e");
+    ADD_CHECKPOINT(5000,  "fd6b5023ed85c628337c009c2428357e27783ca7d0ee7861cf21eaa3d69eedcf");
 //    ADD_CHECKPOINT(22231, "7cb10e29d67e1c069e6e11b17d30b809724255fee2f6868dc14cfc6ed44dfb25");
 //   ADD_CHECKPOINT(29556, "53c484a8ed91e4da621bb2fa88106dbde426fe90d7ef07b9c1e5127fb6f3a7f6");
 //    ADD_CHECKPOINT(50000, "0fe8758ab06a8b9cb35b7328fd4f757af530a5d37759f9d3e421023231f7b31c");
@@ -253,10 +253,10 @@ namespace cryptonote
     std::vector<std::string> records;
 
     // All four MoneroPulse domains have DNSSEC on and valid
-    static const std::vector<std::string> dns_urls = { "checkpoints.moneropulse.se"
-						     , "checkpoints.moneropulse.org"
-						     , "checkpoints.moneropulse.net"
-						     , "checkpoints.moneropulse.co"
+    static const std::vector<std::string> dns_urls = { "checkpoints.recoalpulse.gq"
+						     , "checkpoints.recoalpulse.ml"
+						     //, "checkpoints.recoalpulse.ga"
+						     //, "checkpoints.recoalpulse.cf"
     };
 
     static const std::vector<std::string> testnet_dns_urls = { "testpoints.moneropulse.se"
