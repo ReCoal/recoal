@@ -14,18 +14,18 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 | Operating System      | Processor | Status |
 | --------------------- | -------- |--------|
-| Ubuntu 16.04          |  i686    | ![Ubuntu 16.04 i686](https://recoal.github.io/builds/fail.png)
-| Ubuntu 16.04          |  amd64   | ![Ubuntu 16.04 amd64](https://recoal.github.io/builds/fail.png)
+| Ubuntu 16.04          |  i686    | ![Ubuntu 16.04 i686](https://recoal.github.io/builds/ubuntu16-04.png)
+| Ubuntu 16.04          |  amd64   | ![Ubuntu 16.04 amd64](https://recoal.github.io/builds/ubuntu16-04amd64.png)
 | Ubuntu 16.04          |  armv7   | ![Ubuntu 16.04 armv7](https://recoal.github.io/builds/ubuntu16-04arm7.png)
-| Ubuntu 18.04          |  amd64   | ![Ubuntu 16.04 amd64](https://recoal.github.io/builds/fail.png)
+| Ubuntu 18.04          |  amd64   | ![Ubuntu 16.04 amd64](https://recoal.github.io/builds/ubuntu18-04amd64.png)
 | Debian Stable         |  armv8   | ![Debian armv8](https://recoal.github.io/builds/deb-armv8.png)
 | OSX 10.11             |  amd64   | ![OSX 10.11 amd64](https://recoal.github.io/builds/osx-10-11.png)
 | OSX 10.12             |  amd64   | ![OSX 10.12 amd64](https://recoal.github.io/builds/osx-10-12.png)
-| OSX 10.13             |  amd64   | ![OSX 10.13 amd64](https://recoal.github.io/builds/fail.png)
+| OSX 10.13             |  amd64   | ![OSX 10.13 amd64](https://recoal.github.io/builds/osx-10-13.png)
 | FreeBSD 11            |  amd64   | ![FreeBSD 11 amd64](https://recoal.github.io/builds/freebsd64.png)
 | DragonFly BSD 4.6     |  amd64   | ![DragonFly BSD amd64](https://recoal.github.io/builds/dragonflybsd-amd64.png)
-| Windows (MSYS2/MinGW) |  i686    | ![Windows (MSYS2/MinGW) i686](https://recoal.github.io/builds/fail.png)
-| Windows (MSYS2/MinGW) |  amd64   | ![Windows (MSYS2/MinGW) amd64](https://recoal.github.io/builds/fail.png)
+| Windows (MSYS2/MinGW) |  i686    | ![Windows (MSYS2/MinGW) i686](https://recoal.github.io/builds/win32.png)
+| Windows (MSYS2/MinGW) |  amd64   | ![Windows (MSYS2/MinGW) amd64](https://recoal.github.io/builds/win64.png)
 
 ## Coverage
 
