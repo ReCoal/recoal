@@ -141,10 +141,11 @@ invokes cmake commands as needed.
 
 * Install the dependencies
 * Change to the root of the source code directory and build:
-
+`
         cd recoal
-        make
-
+	git checkout v0.3
+	make
+`
     *Optional*: If your machine has several cores and enough memory, enable
     parallel build by running `make -j<number of threads>` instead of `make`. For
     this to be worthwhile, the machine should have one core and about 2GB of RAM
@@ -198,7 +199,7 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 ```
         git clone https://github.com/ReCoal/recoal.git
 	cd recoal
-	git checkout tags/v0.2.0.0
+	git checkout tags/v0.3
 ```
 * Build:
 ```
@@ -283,7 +284,21 @@ application.
   or `MinGW-w64-Win64 Shell` shortcut on 32-bit Windows. Note that if you are
   running 64-bit Windows, you will have both 64-bit and 32-bit MinGW shells.
 
+**Cloning**
+
+* To git clone, run:
+
+        git clone --recursive https://github.com/ReCoal/recoal.git
+
 **Building**
+
+* Change to the cloned directory, run:
+	
+        cd recoal
+
+* If you would like a specific [version/tag](https://github.com/ReCoal/recoal/tags), do a git checkout for that version. eg. 'v0.3'. If you dont care about the version and just want binaries from master, skip this step:
+	
+        git checkout v0.3
 
 * If you are on a 64-bit system, run:
 
